@@ -190,13 +190,13 @@ TextureImporter:
       name: Mobile - Flappy Bird - Version 12 Sprites_2
       rect:
         serializedVersion: 2
-        x: 293
-        y: 427
-        width: 96
-        height: 28
+        x: 295
+        y: 428
+        width: 92
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 2, y: 1, z: 2, w: 2}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -211,13 +211,13 @@ TextureImporter:
       name: Mobile - Flappy Bird - Version 12 Sprites_3
       rect:
         serializedVersion: 2
-        x: 394
-        y: 428
-        width: 98
-        height: 26
+        x: 395
+        y: 432
+        width: 96
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 4, z: 1, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -276,11 +276,11 @@ TextureImporter:
         serializedVersion: 2
         x: 292
         y: 372
-        width: 58
-        height: 52
+        width: 57
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 3}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -510,7 +510,7 @@ TextureImporter:
         width: 151
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
