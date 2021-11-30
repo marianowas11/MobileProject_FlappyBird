@@ -50,6 +50,12 @@ TextureImporter:
   - first:
       213: 1399865248621217857
     second: Mobile - Flappy Bird - Version 12 Sprites_15
+  - first:
+      213: 8181548382722186305
+    second: wall
+  - first:
+      213: -5322340071041531647
+    second: ruf
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -462,7 +468,7 @@ TextureImporter:
         width: 89
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,6 +476,48 @@ TextureImporter:
       bones: []
       spriteID: 1484b7dd6025d6310800000000000000
       internalID: 1399865248621217857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 110
+        width: 7
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cd3d808e2ba8170800000000000000
+      internalID: 8181548382722186305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruf
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 188
+        width: 151
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1010eb387ef3326b0800000000000000
+      internalID: -5322340071041531647
       vertices: []
       indices: 
       edges: []
