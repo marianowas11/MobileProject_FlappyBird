@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject gameOverCanvas;
+    [SerializeField]
+    private AudioSource _audioSource;
     // Start is called before the first frame update
     private void Start()
     {
@@ -14,6 +16,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        _audioSource.Play();
         gameOverCanvas.SetActive(true);
         Time.timeScale = 0;
     }
