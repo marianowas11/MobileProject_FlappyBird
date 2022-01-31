@@ -15,7 +15,6 @@ public class Fly : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         _audioSource = GetComponent<AudioSource>();
     }
-
     // Update is called once per frame
     void Update()
     {   
