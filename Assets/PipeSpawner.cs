@@ -14,6 +14,7 @@ public class PipeSpawner : MonoBehaviour
     {
         GameObject newpipe = Instantiate(pipe);
         newpipe.transform.position = transform.position + new Vector3(0, Random.Range(-height,height),0);
+        Destroy(newpipe, 10f);
     }
 
     // Update is called once per frame
@@ -23,7 +24,7 @@ public class PipeSpawner : MonoBehaviour
         {
             GameObject newpipe = Instantiate(pipe);
             newpipe.transform.position = transform.position + new Vector3(0, Random.Range(-height,height),0);
-            Destroy(newpipe, 15);
+            Destroy(newpipe, 10f);
             timer = 0;
         }
 
