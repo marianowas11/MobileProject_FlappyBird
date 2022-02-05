@@ -8,7 +8,7 @@ public class AtBeggining : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     public void Continue()

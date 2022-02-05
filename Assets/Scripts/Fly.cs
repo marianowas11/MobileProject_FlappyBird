@@ -7,8 +7,7 @@ public class Fly : MonoBehaviour
     public GameManager gameManager;
     public float velocity = 1;
     private Rigidbody2D rb;
-    [SerializeField]
-    private AudioSource _audioSource;
+    public static AudioSource _audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,5 +28,6 @@ public class Fly : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         gameManager.GameOver();
+        _audioSource.volume=0f;
     }
 }

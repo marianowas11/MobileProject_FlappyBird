@@ -10,10 +10,10 @@ TextureImporter:
     second: Mobile - Flappy Bird - Version 12 Sprites_1
   - first:
       213: 7294014354058790825
-    second: Mobile - Flappy Bird - Version 12 Sprites_2
+    second: GetReadyIMG
   - first:
       213: -514118242663219353
-    second: Mobile - Flappy Bird - Version 12 Sprites_3
+    second: GameOverIMG
   - first:
       213: -6830950117582225322
     second: Mobile - Flappy Bird - Version 12 Sprites_4
@@ -25,10 +25,10 @@ TextureImporter:
     second: Mobile - Flappy Bird - Version 12 Sprites_6
   - first:
       213: 6297297506034485570
-    second: Mobile - Flappy Bird - Version 12 Sprites_7
+    second: Play_Small
   - first:
       213: 5897210807152635017
-    second: Mobile - Flappy Bird - Version 12 Sprites_8
+    second: Play_Big
   - first:
       213: -8672742685835622642
     second: Mobile - Flappy Bird - Version 12 Sprites_9
@@ -49,13 +49,28 @@ TextureImporter:
     second: Mobile - Flappy Bird - Version 12 Sprites_14
   - first:
       213: 1399865248621217857
-    second: Mobile - Flappy Bird - Version 12 Sprites_15
+    second: FlappyBirdIMG
   - first:
       213: 8181548382722186305
     second: wall
   - first:
       213: -5322340071041531647
-    second: ruf
+    second: roof
+  - first:
+      213: -3459855430096573399
+    second: ScoreBoard
+  - first:
+      213: 4649278624061740554
+    second: Silver_Medal
+  - first:
+      213: 4229129803915167851
+    second: Gold_Medal
+  - first:
+      213: 5755995480342360952
+    second: New
+  - first:
+      213: -4201885668422426124
+    second: RankingIMG
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -150,11 +165,11 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 256
-        width: 145
+        width: 144
         height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -187,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_2
+      name: GetReadyIMG
       rect:
         serializedVersion: 2
         x: 295
@@ -208,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_3
+      name: GameOverIMG
       rect:
         serializedVersion: 2
         x: 395
@@ -232,13 +247,13 @@ TextureImporter:
       name: Mobile - Flappy Bird - Version 12 Sprites_4
       rect:
         serializedVersion: 2
-        x: 461
-        y: 471
-        width: 42
-        height: 16
+        x: 462
+        y: 473
+        width: 40
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 1, z: 1, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -254,12 +269,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 462
-        y: 455
-        width: 41
-        height: 15
+        y: 457
+        width: 40
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 1, z: 1, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -292,16 +307,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_7
+      name: Play_Small
       rect:
         serializedVersion: 2
         x: 334
-        y: 354
-        width: 15
-        height: 16
+        y: 357
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 2, z: 2, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -313,7 +328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_8
+      name: Play_Big
       rect:
         serializedVersion: 2
         x: 354
@@ -379,13 +394,13 @@ TextureImporter:
       name: Mobile - Flappy Bird - Version 12 Sprites_11
       rect:
         serializedVersion: 2
-        x: 120
-        y: 191
-        width: 15
-        height: 16
+        x: 121
+        y: 193
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 1, y: 1, z: 1, w: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -460,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile - Flappy Bird - Version 12 Sprites_15
+      name: FlappyBirdIMG
       rect:
         serializedVersion: 2
         x: 351
@@ -502,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ruf
+      name: roof
       rect:
         serializedVersion: 2
         x: 225
@@ -518,6 +533,111 @@ TextureImporter:
       bones: []
       spriteID: 1010eb387ef3326b0800000000000000
       internalID: -5322340071041531647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScoreBoard
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 196
+        width: 113
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c23e241df1cffc0800000000000000
+      internalID: -3459855430096573399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Silver_Medal
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 37
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a065401964e858040800000000000000
+      internalID: 4649278624061740554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold_Medal
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 13
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6881675623e0ba30800000000000000
+      internalID: 4229129803915167851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: New
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 4
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8737f8e846761ef40800000000000000
+      internalID: 5755995480342360952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RankingIMG
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 365
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f160e24f37efa5c0800000000000000
+      internalID: -4201885668422426124
       vertices: []
       indices: 
       edges: []

@@ -8,6 +8,7 @@ public class AddPoints : MonoBehaviour
     private AudioSource _audioSource;
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        _audioSource= GetComponent<AudioSource>();
         _audioSource.Play();
         Points.points++;
     }
