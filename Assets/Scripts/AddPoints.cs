@@ -13,6 +13,7 @@ public class AddPoints : MonoBehaviour
         Points.points++;
     }
     // Start is called before the first frame update
+    //smt
     void Start()
     {
         
